@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import formulario
 from django.views import generic
 # Create your views here.
-def index (request):
+def contacto (request):
     num_Formu = formulario.objects.all().count()
 
     return render(
