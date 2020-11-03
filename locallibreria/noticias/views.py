@@ -7,6 +7,6 @@ def index (request):
 
     return render(
         request,
-        'index.html',
+        'contacto.html',
         context={'nun_formu': num_Formu},
     )
